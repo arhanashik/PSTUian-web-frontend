@@ -1,0 +1,7 @@
+const apiBaseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
+  const publicAuthToken =
+    process.env.NEXT_PUBLIC_AUTHORIZATION_KEY_FIRST +
+    "&" +
+    process.env.NEXT_PUBLIC_AUTHORIZATION_KEY_MIDDLE +
+    "$" +
+    process.env.NEXT_PUBLIC_AUTHORIZATION_KEY_LAST;
